@@ -86,7 +86,9 @@
                 aria-controls="offcanvasNavbar"
                 aria-label="Toggle navigation"
               >
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-image"
+                  ><i class="fa-solid fa-bars-progress"></i
+                ></span>
               </button>
               <div
                 class="offcanvas offcanvas-end"
@@ -100,10 +102,12 @@
                   </h5>
                   <button
                     type="button"
-                    class="btn-close"
+                    class="close"
                     data-bs-dismiss="offcanvas"
                     aria-label="Close"
-                  ></button>
+                  >
+                    <i class="fa-solid fa-rectangle-xmark"></i>
+                  </button>
                 </div>
                 <div class="offcanvas-body">
                   <ul class="navbar-nav justify-content-end flex-grow-1">
@@ -439,48 +443,128 @@
     <section class="review">
       <div class="container">
         <div class="row review_row">
-          <!-- review item one -->
+          <!-- review items -->
 
-          <div class="col-md-5 review_col">
-            <div class="review_item">
-              <div class="bio">
-                <div class="bio_photo">
-                  <img src="assets/small_photo_2.png" alt="" />
+          <div class="col-md-12 review_col">
+            <div class="review_slider owl-carousel">
+              <!-- item one -->
+
+              <div class="review_item">
+                <div class="bio">
+                  <div class="bio_photo">
+                    <img src="assets/small_photo_2.png" alt="" />
+                  </div>
+                  <p>Tracy Denddy</p>
+                  <h5>HBO</h5>
                 </div>
-                <p>Tracy Denddy</p>
-                <h5>HBO</h5>
-              </div>
 
-              <div class="review_text">
-                <p>
-                  Ut en im ad minima ven iam, qui11 nostrum exercitat ionem
-                  ullam corpori11 suscipit laboriosam, ni11i ut aliquid ex ea
-                  commodi consequatur?
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <!-- ---- -->
-
-          <!-- review item two -->
-
-          <div class="col-md-5 review_col">
-            <div class="review_item">
-              <div class="bio">
-                <div class="bio_photo">
-                  <img src="assets/small_photo_1.png" alt="" />
+                <div class="review_text">
+                  <p>
+                    Ut en im ad minima ven iam, qui11 nostrum exercitat ionem
+                    ullam corpori11 suscipit laboriosam, ni11i ut aliquid ex ea
+                    commodi consequatur?
+                  </p>
                 </div>
-                <p>Tracy Denddy</p>
-                <h5>HBO</h5>
               </div>
 
-              <div class="review_text">
-                <p>
-                  Ut en im ad minima ven iam, qui11 nostrum exercitat ionem
-                  ullam corpori11 suscipit laboriosam, ni11i ut aliquid ex ea
-                  commodi consequatur?
-                </p>
+              <!-- item two -->
+
+              <div class="review_item">
+                <div class="bio">
+                  <div class="bio_photo">
+                    <img src="assets/small_photo_1.png" alt="" />
+                  </div>
+                  <p>Tracy Denddy</p>
+                  <h5>HBO</h5>
+                </div>
+
+                <div class="review_text">
+                  <p>
+                    Ut en im ad minima ven iam, qui11 nostrum exercitat ionem
+                    ullam corpori11 suscipit laboriosam, ni11i ut aliquid ex ea
+                    commodi consequatur?
+                  </p>
+                </div>
+              </div>
+
+              <!-- item three -->
+
+              <div class="review_item">
+                <div class="bio">
+                  <div class="bio_photo">
+                    <img src="assets/small_photo_2.png" alt="" />
+                  </div>
+                  <p>Tracy Denddy</p>
+                  <h5>HBO</h5>
+                </div>
+
+                <div class="review_text">
+                  <p>
+                    Ut en im ad minima ven iam, qui11 nostrum exercitat ionem
+                    ullam corpori11 suscipit laboriosam, ni11i ut aliquid ex ea
+                    commodi consequatur?
+                  </p>
+                </div>
+              </div>
+
+              <!-- item four -->
+
+              <div class="review_item">
+                <div class="bio">
+                  <div class="bio_photo">
+                    <img src="assets/small_photo_1.png" alt="" />
+                  </div>
+                  <p>Tracy Denddy</p>
+                  <h5>HBO</h5>
+                </div>
+
+                <div class="review_text">
+                  <p>
+                    Ut en im ad minima ven iam, qui11 nostrum exercitat ionem
+                    ullam corpori11 suscipit laboriosam, ni11i ut aliquid ex ea
+                    commodi consequatur?
+                  </p>
+                </div>
+              </div>
+
+              <!-- iterm five -->
+
+              <div class="review_item">
+                <div class="bio">
+                  <div class="bio_photo">
+                    <img src="assets/small_photo_2.png" alt="" />
+                  </div>
+                  <p>Tracy Denddy</p>
+                  <h5>HBO</h5>
+                </div>
+
+                <div class="review_text">
+                  <p>
+                    Ut en im ad minima ven iam, qui11 nostrum exercitat ionem
+                    ullam corpori11 suscipit laboriosam, ni11i ut aliquid ex ea
+                    commodi consequatur?
+                  </p>
+                </div>
+              </div>
+
+              <!-- item six -->
+
+              <div class="review_item">
+                <div class="bio">
+                  <div class="bio_photo">
+                    <img src="assets/small_photo_1.png" alt="" />
+                  </div>
+                  <p>Tracy Denddy</p>
+                  <h5>HBO</h5>
+                </div>
+
+                <div class="review_text">
+                  <p>
+                    Ut en im ad minima ven iam, qui11 nostrum exercitat ionem
+                    ullam corpori11 suscipit laboriosam, ni11i ut aliquid ex ea
+                    commodi consequatur?
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -651,12 +735,14 @@
         <div class="row footerrow">
           <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"
+              <a class="navbar-brand footer-brand" href="#"
                 ><img src="assets/logo_2.png" alt="" class="img-fluid"
               /></a>
 
               <div class="footer_menu">
-                <ul class="navbar-nav justify-content-end flex-grow-1">
+                <ul
+                  class="navbar-nav justify-content-end flex-grow-1 footer_ul"
+                >
                   <li class="nav-item footer_item">
                     <a class="nav-link" aria-current="page" href="#">HOME</a>
                   </li>
@@ -681,9 +767,7 @@
                 </ul>
 
                 <div class="copyright">
-                  <p class="text-end">
-                    Copyright Cyber Essenlials. Privacy Policy
-                  </p>
+                  <p>Copyright Cyber Essenlials. Privacy Policy</p>
                 </div>
               </div>
             </div>
@@ -703,5 +787,8 @@
     <!-- Owl-Carousel JS -->
     <script src="js/owl.carousel.min.js"></script>
     <!-- Owl-Carousel JS -->
+
+    <!-- main js -->
+    <script src="js/main.js"></script>
   </body>
 </html>

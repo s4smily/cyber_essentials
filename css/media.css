@@ -1,0 +1,128 @@
+@media(max-width:575px){
+
+
+    .preheader {
+        display: none;
+    }
+
+    .nav-item a {
+        color: #1f95f7;
+    }
+
+    .nav-item {
+        padding: 0;
+        margin: 10px 0;
+    }
+
+    .schedule1 p{
+
+        color: white;
+    }
+
+    .navbar-toggler{
+
+        box-shadow: none;
+        border: none;
+    }
+
+    .navbar-image i{
+
+        font-size: 50px;
+        color: white;
+
+
+    }
+
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+    }
+
+    .close{
+
+        border: none;
+    }
+
+    .close i{
+        
+        color: red;
+        font-size: 45px;
+    }
+
+    .offcanvas-title img{
+
+        width: 120px;
+    }
+
+    .bannertext h2 {
+        font-size: 35px;
+    }
+
+    .bannertext p {
+        font-size: 20px;
+    }
+
+    .ordernow1 {
+        margin: 20px 10px;
+        width: 120px;
+    }
+
+    .ordernow1 a{
+
+        font-size: 13px;
+    }
+
+    .neque_poro_photo {
+        display: none;
+    }
+
+    .bio_photo {
+        margin: auto;
+    }
+
+    .review_item {
+        text-align: center;
+        display: block;
+    }
+
+    .neque_poro_photo2 {
+        display: none;
+    }
+
+    .contact {
+        min-height: 820px;
+    }
+
+    .footer_ul{
+
+        display: none;
+    }
+
+    .footer-brand img {
+        width: 150px;
+
+    }
+
+   .footer-brand{
+
+        text-align: center;
+        width: 100%;
+   }
+
+    .footer_menu {
+        width: 100%;
+    }
+
+    .form_wrap {
+        margin-bottom: 40px;
+    }
+
+    .mapwrap iframe {
+        height: 400px;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+}
