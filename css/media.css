@@ -1,12 +1,57 @@
-@media(max-width:575px){
+@media(max-width:991px){
 
 
+    .name {
+        width: 100%;
+    }
+
+    .Company {
+        width: 100%;
+    }
+
+    .number{
+
+        width: 100%;
+    }
+
+    .emails{
+
+        width: 100%;
+    }
+    
+    .bannercol {
+        width: 100%;
+    }
+    
     .preheader {
         display: none;
     }
 
     .nav-item a {
-        color: #1f95f7;
+        color: black;
+    }
+
+    .packagewrap {
+        top: -100px;
+    }
+
+    .textcontent_wrap {
+        top: 38%;
+    }
+
+    .package {
+        margin-bottom: 50px;
+        min-height: 1000px;
+    }
+
+    .blue_bg_wrap {
+
+        top: 4%;
+
+    }
+
+    .blue_bg {
+        min-height: 647px;
     }
 
     .nav-item {
@@ -56,11 +101,264 @@
     }
 
     .bannertext h2 {
-        font-size: 35px;
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 40px;
     }
 
     .bannertext p {
         font-size: 20px;
+        text-align: center;
+    }
+
+    .ordernow1 {
+        margin: 20px 10px;
+        width: 120px;
+    }
+
+    .ordernow1 a{
+
+        font-size: 13px;
+    }
+
+    .neque_poro_photo {
+    }
+
+    .bio_photo {
+        margin: auto;
+    }
+
+    .review_item {
+        text-align: center;
+        display: block;
+    }
+
+    .neque_poro_photo2 {
+    }
+
+    .contact {
+        min-height: 820px;
+    }
+
+    .footer_ul{
+
+        display: none;
+    }
+
+    .footer-brand img {
+        width: 150px;
+
+    }
+
+   .footer-brand{
+
+text-align: center;
+
+width: 100%;
+
+margin-top: 0;
+}
+
+    .footer_menu {
+        width: 100%;
+    }
+
+    .form_wrap {
+        margin-bottom: 60px;
+    }
+
+    .mapwrap iframe {
+        height: 400px;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+
+    .offcanvas-body{
+
+        background: #83bad5;
+    }
+
+    .close{
+
+        background-color: transparent;
+    }
+
+    .offcanvas-header{
+    background: #08db86;}
+
+    .schedule2 {
+        width: 170px;
+        text-align: center;
+        margin: 45px auto;
+        display: block;
+    }
+
+    .learnmore {
+
+}
+
+    .review_text {
+
+        margin-top: 25px;
+    }
+
+    .form_wrap p {
+        text-align: start;
+    }
+
+    .form_wrap h3 {
+        text-align: start;
+        margin-bottom: 25px;
+    }
+
+    .submit {
+
+}
+
+    .copyright p {
+        font-weight: 400;
+        text-align: center;
+
+        
+    }
+
+    .mapwrap iframe {
+        height: 460px;
+    }
+
+    .mapwrap {
+        position: absolute;
+        right: 0;
+        top: 0%;
+        width: 50%;
+    }
+
+    .contact {
+
+min-height: 730px;
+
+}
+
+    .newsletterrow {
+        margin: 0;
+    }
+
+    .signup {
+        width: 150px;
+        display: inline-flex;
+        margin-left: 10px;
+        border-radius: 2px;
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:767px){
+
+
+    .fullname{
+
+        width: 100%;
+
+
+        margin-bottom: 10px;
+
+    }
+
+    .email3{
+
+        width: 100%;
+        margin: 0;
+
+    }
+    .preheader {
+        display: none;
+    }
+
+    .nav-item a {
+        color: black;
+    }
+
+    .packagewrap {
+        top: -50px;
+    }
+
+    .textcontent_wrap {
+        top: 55%;
+    }
+
+    .package {
+        margin-bottom: 50px;
+    }
+
+    .blue_bg_wrap {
+
+        top: 4%;
+
+    }
+
+    .blue_bg {
+        min-height: 400px;
+    }
+
+    .nav-item {
+        padding: 0;
+        margin: 10px 0;
+    }
+
+    .schedule1 p{
+
+        color: white;
+    }
+
+    .navbar-toggler{
+
+        box-shadow: none;
+        border: none;
+    }
+
+    .navbar-image i{
+
+        font-size: 50px;
+        color: white;
+
+
+    }
+
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+    }
+
+    .close{
+
+        border: none;
+    }
+
+    .close i{
+        
+        color: red;
+        font-size: 45px;
+    }
+
+    .offcanvas-title img{
+
+        width: 120px;
+    }
+
+    .bannertext h2 {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 40px;
+        margin-top: 80px;
+    }
+
+    .bannertext p {
+        font-size: 20px;
+        text-align: center;
     }
 
     .ordernow1 {
@@ -106,16 +404,19 @@
 
    .footer-brand{
 
-        text-align: center;
-        width: 100%;
-   }
+text-align: center;
+
+width: 100%;
+
+margin-top: 0;
+}
 
     .footer_menu {
         width: 100%;
     }
 
     .form_wrap {
-        margin-bottom: 40px;
+        margin-bottom: 60px;
     }
 
     .mapwrap iframe {
@@ -124,5 +425,560 @@
 
     .copyright {
         text-align: center;
+    }
+
+    .offcanvas-body{
+
+        background: #83bad5;
+    }
+
+    .close{
+
+        background-color: transparent;
+    }
+
+    .offcanvas-header{
+    background: #08db86;}
+
+    .schedule2 {
+        width: 170px;
+        text-align: center;
+        margin: 80px auto;
+        display: block;
+    }
+
+    .learnmore {
+
+        margin: 30px auto;
+    }
+
+    .review_text {
+
+        margin-top: 25px;
+    }
+
+    .form_wrap p {
+        text-align: center;
+    }
+
+    .form_wrap h3 {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .submit {
+
+        margin: auto;
+    }
+
+    .copyright p {
+        font-weight: 400;
+        text-align: center;
+
+        
+    }
+
+    .mapwrap iframe {
+        height: 300px;
+
+    }
+
+    .mapwrap {
+        position: absolute;
+        right: 0;
+        width: 100%;
+        top: 66%;
+    }
+
+    .contact {
+
+min-height: 1100px;
+}
+
+    .newsletterrow {
+        margin: 0;
+    }
+
+    .signup {
+        width: 150px;
+        display: inline-flex;
+        margin-left: 10px;
+        border-radius: 2px;
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:575px){
+
+
+
+    .email3 {
+       width: 100%;
+       margin: 0
+       ;
+    }
+    .fullname {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .mapwrap {
+
+        top: 60%;
+    }
+    .preheader {
+        display: none;
+    }
+
+    .nav-item a {
+        color: black;
+    }
+
+    .packagewrap {
+        top: -50px;
+    }
+
+    .textcontent_wrap {
+        top: 55%;
+    }
+
+    .package {
+        margin-bottom: 100px;
+    }
+
+    .blue_bg_wrap {
+
+        top: 4%;
+
+    }
+
+    .blue_bg {
+        min-height: 485px;
+    }
+
+    .nav-item {
+        padding: 0;
+        margin: 10px 0;
+    }
+
+    .schedule1 p{
+
+        color: white;
+    }
+
+    .navbar-toggler{
+
+        box-shadow: none;
+        border: none;
+    }
+
+    .navbar-image i{
+
+        font-size: 50px;
+        color: white;
+
+
+    }
+
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+    }
+
+    .close{
+
+        border: none;
+    }
+
+    .close i{
+        
+        color: red;
+        font-size: 45px;
+    }
+
+    .offcanvas-title img{
+
+        width: 120px;
+    }
+
+    .bannertext h2 {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 40px;
+        margin-top: 80px;
+    }
+
+    .bannertext p {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .ordernow1 {
+        margin: 20px 10px;
+        width: 120px;
+    }
+
+    .ordernow1 a{
+
+        font-size: 13px;
+    }
+
+    .neque_poro_photo {
+        display: none;
+    }
+
+    .bio_photo {
+        margin: auto;
+    }
+
+    .review_item {
+        text-align: center;
+        display: block;
+    }
+
+    .neque_poro_photo2 {
+        display: none;
+    }
+
+    .contact {
+        min-height: 1200px;
+    }
+
+    .footer_ul{
+
+        display: none;
+    }
+
+    .footer-brand img {
+        width: 150px;
+
+    }
+
+   .footer-brand{
+
+text-align: center;
+
+width: 100%;
+
+margin-top: 0;
+}
+
+    .footer_menu {
+        width: 100%;
+    }
+
+    .form_wrap {
+        margin-bottom: 60px;
+    }
+
+    .mapwrap iframe {
+        height: 400px;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+
+    .offcanvas-body{
+
+        background: #83bad5;
+    }
+
+    .close{
+
+        background-color: transparent;
+    }
+
+    .offcanvas-header{
+    background: #08db86;}
+
+    .schedule2 {
+        width: 170px;
+        text-align: center;
+        margin: 80px auto;
+        display: block;
+    }
+
+    .learnmore {
+
+        margin: 30px auto;
+    }
+
+    .review_text {
+
+        margin-top: 25px;
+    }
+
+    .form_wrap p {
+        text-align: center;
+    }
+
+    .form_wrap h3 {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .submit {
+
+        margin: auto;
+    }
+
+    .copyright p {
+        font-weight: 400;
+        text-align: center;
+    }
+}
+
+@media(max-width:425px){
+
+
+    .pricing {
+        display: none;
+    }
+
+    .textcontent_wrap {
+        top: 3%;
+    }
+
+    .package {
+        margin-bottom: 0;
+        min-height: 680px;
+    }
+
+    .blue_bg {
+        min-height: 625px;
+    }
+
+    .name {
+        width: 100%;
+    }
+
+    .Company {
+        width: 100%;
+    }
+
+    .emails{
+
+        width: 100%;
+    }
+
+    .number {
+        width: 100%;
+    }
+
+    .submit {
+        margin: 20px auto;
+    }
+
+    .contact {
+        min-height: 900px;
+    }
+
+    .footer-brand {
+        margin-top: 60px;
+    }
+
+    .navbar-brand img {
+        width: 60%;
+    }
+
+    .navbar-image i {
+        font-size: 40px;
+    }
+
+    .offcanvas-title img {
+        width: 90px;
+    }
+
+    .close i {
+        color: red;
+        font-size: 35px;
+    }
+
+    .footer-brand img {
+        width: 100px;
+    }
+}
+
+@media(max-width:375px){
+
+
+
+
+    
+    .fullname {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .email3 {
+        width: 100%;
+        margin: 0;
+    }
+    .mapwrap {
+
+        top: 70%;
+        
+        }
+        
+            .mapwrap iframe {
+                height: 300px;
+            }
+    .pricing {
+        display: none;
+    }
+
+    .textcontent_wrap {
+        top: 3%;
+    }
+
+    .package {
+        margin-bottom: 0;
+        min-height: 720px;
+    }
+
+    .blue_bg {
+        min-height: 660px;
+    }
+
+    .name {
+        width: 100%;
+    }
+
+    .Company {
+        width: 100%;
+    }
+
+    .emails{
+
+        width: 100%;
+    }
+
+    .number {
+        width: 100%;
+    }
+
+    .submit {
+        margin: 20px auto;
+    }
+
+    .contact {
+        min-height: 1200px;
+    }
+
+    .footer-brand {
+        margin-top: 0;
+    }
+
+    .navbar-brand img {
+        width: 60%;
+    }
+
+    .navbar-image i {
+        font-size: 40px;
+    }
+
+    .offcanvas-title img {
+        width: 90px;
+    }
+
+    .close i {
+        color: red;
+        font-size: 35px;
+    }
+
+    .footer-brand img {
+        width: 100px;
+    }
+}
+
+@media(max-width:320px){
+
+
+    .mapwrap {
+
+top: 70%;
+
+}
+
+    .mapwrap iframe {
+        height: 300px;
+    }
+    
+    .pricing {
+        display: none;
+    }
+
+    .textcontent_wrap {
+        top: 3%;
+    }
+
+    .package {
+        margin-bottom: 40px;
+        min-height: 790px;
+    }
+
+    .blue_bg {
+        min-height: 700px;
+    }
+
+    .name {
+        width: 100%;
+    }
+
+    .Company {
+        width: 100%;
+    }
+
+    .emails{
+
+        width: 100%;
+    }
+
+    .number {
+        width: 100%;
+    }
+
+    .submit {
+        margin: 20px auto;
+    }
+
+    .contact {
+        min-height: 1200px;
+    }
+
+    .footer-brand {
+        margin-top: 0;
+    }
+
+    .navbar-brand img {
+        width: 60%;
+    }
+
+    .navbar-image i {
+        font-size: 40px;
+    }
+
+    .offcanvas-title img {
+        width: 90px;
+    }
+
+    .close i {
+        color: red;
+        font-size: 35px;
+    }
+
+    .footer-brand img {
+        width: 100px;
+    }
+
+    .fullname {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .email3 {
+        width: 100%;
+        margin: 0;
     }
 }
